@@ -1,6 +1,6 @@
 // Trabalho 3 de computacao grafica
 // Claudio Belo Rodrigues Junior RA 2483
-// Gustavo Furlan ...
+// Gustavo Furlan RA 2576
 
 #include <GL/gl.h>
 #include <GL/glu.h>
@@ -362,4 +362,3 @@ void stepBlocks(){
     drawDisplayBase();
     glutTimerFunc(10, stepBlocks, 1);
 }
-
